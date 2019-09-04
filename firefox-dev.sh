@@ -1,5 +1,14 @@
 #!/bin/bash
 # -d "/opt/firefox-dev" ] && echo "Directory /opt/firefox-dir exists."
+
+if [ -d "/opt/firefox-dev"  ]
+then
+ echo "Directory /opt/firefox-dev exists." ;
+else
+ sudo mkdir /opt/firefix-dev
+fi
+
+
 if [ -d "/opt/firefox-dev"  ] 
 then
     echo "Directory /opt/firefox-dev exists." ;
