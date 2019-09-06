@@ -5,7 +5,7 @@ if [ -d "/opt/firefox-dev"  ]
 then
  echo "Directory /opt/firefox-dev exists." ;
 else
- sudo mkdir /opt/firefix-dev
+ sudo mkdir /opt/firefox-dev
 fi
 
 
